@@ -71,9 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int calculateNumber(int number) {
         int ans = 0;
-        if (number == 1) {
-            ans = 1;
-        } else if (number % 2 == 0) {
+        if (number % 2 == 0) {
             ans = -(number / 2);
         } else {
             ans = -(number - 1) / 2 + number;
